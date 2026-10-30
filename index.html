@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Камень, ножницы, бумага</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>выберите камень 💎, ножницы ✂ или бумагу📃</h1>
+        
+        <form method="POST">
+            <div class="button-group">
+                <button type="submit" name="action" value="button1">💎</button>
+                <button type="submit" name="action" value="button2">✂</button>
+                <button type="submit" name="action" value="button3">📃</button>
+            </div>
+        </form>
+
+        {% if result %}
+            <p>{{result}}</p>
+        {% endif %}
+
+         {% if per %}
+            <p>побед: {{per}}</p>
+        {% endif %}
+
+        {% if com %}
+            <p>поражений: {{com}}</p>
+        {% endif %}
+       
+        {% if nich %}
+            <p>ничьих: {{nich}}</p>
+        {% endif %}
+
+    </div>
+</body>
+</html>

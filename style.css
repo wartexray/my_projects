@@ -1,0 +1,39 @@
+h1 {
+color:rgb(233, 19, 230);
+text-align:center;
+}
+body {
+background-color: rgb(128, 0, 128);
+}
+
+.button-group {
+text-align: center;
+background-color: rgb(128, 0, 128);
+border: none; /* Убираем стандартную границу */
+padding: 10px 20px; /* Отступы вокруг текста */
+border-radius: 5px; /* Скруглённые углы */
+font-size: 16px; /* Размер шрифта */
+cursor: pointer; /* Курсор в виде руки при наведении */
+}
+
+.button-group button {
+display: inline-block; 
+margin: 0 5px;
+background-color: rgb(128, 0, 128);
+border: none; /* Убираем стандартную границу */
+border-radius: 5px; /* Скруглённые углы */
+cursor: pointer; /* Курсор в виде руки при наведении */
+}
+.button-group {
+text-align: center;
+background-color: rgb(128, 0, 128);
+color: rgb(233, 19, 230);
+border: none; /* Убираем стандартную границу */
+border-radius: 5px; /* Скруглённые углы */
+cursor: pointer; /* Курсор в виде руки при наведении */
+
+}
+p {
+color:rgb(233, 19, 230);
+text-align: center;
+}
